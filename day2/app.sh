@@ -53,4 +53,5 @@ find /path/to/search -type d -> find command for search for directories in a spe
 find /path/to/search -type f -> find command for search for regular files in a specific directory and its subdirectories.
 
 find /path/to/search -type f -mmin -20 -> find command for search for files modified within the last 20 minutes in a specific directory and its subdirectories.
+find . -empty -> find command for search for empty files and directories in the current directory and its subdirectories.
 
